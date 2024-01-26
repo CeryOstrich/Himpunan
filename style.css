@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 12%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .logo p {
+    font-family: 'poppins';
+    color: rgb(255, 255, 255);
+}
+
+.navbar .logo img {
+    width: 2rem;
+}
+
+.navbar-nav a {
+    font-family: 'poppins';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1.3rem;
+    height: 20px;
+    width: 50px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s ease;
+    padding-bottom: 2px;
+}
+
+.navbar-nav a:hover {
+    color: rgb(129, 255, 3);
+    transition-duration: 0.5s;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 300px;
+    padding-right: 600px;
+}
+
+.main p {
+    position: relative;
+    text-align: center;
+    top: -500px;
+    left: -300px;
+}
+
+.main img {
+    position: relative;
+    width: 500px;  
+    height: auto;
+    left: 950px;
+    top: -250px;
+}
